@@ -148,17 +148,7 @@ footer img{
     display: none;
 }
 
- 
-/* 
-MENU RESPONSIVO
-
-
-
-
-*/
-
-@media (min-width:377px )and (max-width:768px ) {
-  
+@media (min-width:750px ) and (max-width:960px ) {
     nav{
         display: flex;
         padding-top: 30px;
@@ -221,7 +211,9 @@ MENU RESPONSIVO
     }
 }
 
-@media (max-width:376px) {
+@media (max-width:600px) {
+    
+
     .area-right{
         display: none;
     }
